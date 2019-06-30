@@ -12,6 +12,6 @@ public:
             }
         }
         std::vector<int> blah{0,0};
-        return blah;
+        return blah; //required for compiler, will never reach because we always find a target.
     }
 };
