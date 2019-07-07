@@ -18,8 +18,6 @@ std::vector<std::vector<int>> threeSum(std::vector<int>& nums) {
     int k = nums.size() -1; //index of last element
     std::vector<int> answer_vect{0,0,0};
 
-    int flag = 10;
-
     // [-4, -1, -1, -1, 0, 0, 0, 0, 0, 1, 2, 3, 4]
     // [-4, -1, -1, 0, 1, 2]
     // [-4, -1, -1, -1, 0, 0, 1, 1, 2, 3, 4]
